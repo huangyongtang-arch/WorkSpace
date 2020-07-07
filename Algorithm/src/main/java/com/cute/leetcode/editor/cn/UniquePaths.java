@@ -47,6 +47,7 @@ public class UniquePaths {
 class Solution {
     public int uniquePaths(int m, int n) {
 
+        return m;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
