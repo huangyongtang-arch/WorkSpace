@@ -70,6 +70,11 @@ public class MakingFileNamesUnique {
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    /**
+     * TODO
+     * @param names
+     * @return
+     */
     public String[] getFolderNames(String[] names) {
 
         return names;

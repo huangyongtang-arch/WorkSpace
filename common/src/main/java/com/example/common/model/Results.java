@@ -4,7 +4,7 @@ package com.example.common.model;
  * 所有ajax和mobile移动设备访问获取数据的时候的返回数据，作用主要是code，通过code判断是不是有数据，或者返回
  * 一些错误信息的标识 ，有利于消息的统一管理
   * @ClassName Results
-  * @Description TODO
+  * @Description
   * @author wanggang wanggangworkemail@gmail.com
   * @date 2015年6月28日
   * @Commen 功能说明

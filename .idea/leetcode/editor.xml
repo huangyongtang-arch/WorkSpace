@@ -3,11 +3,43 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/../WorkSpace/Algorithm/src/main/java/com/cute/leetcode/editor/cn/[剑指 Offer 03]数组中重复的数字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../WorkSpace/Algorithm/src/main/java/com/cute/leetcode/editor/cn/[剑指 Offer 03]数组中重复的数字.java" />
+              <option name="questionId" value="100275" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/CheckPermutationLcci.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/CheckPermutationLcci.java" />
+              <option name="questionId" value="100159" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/ContainsDuplicate.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/ContainsDuplicate.java" />
               <option name="questionId" value="217" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/DivingBoardLcci.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/DivingBoardLcci.java" />
+              <option name="questionId" value="100352" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/IsUniqueLcci.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/IsUniqueLcci.java" />
+              <option name="questionId" value="100158" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -27,11 +59,35 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/PalindromePermutationLcci.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/PalindromePermutationLcci.java" />
+              <option name="questionId" value="100184" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/PathSum.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/PathSum.java" />
               <option name="questionId" value="112" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/ShuZuZhongZhongFuDeShuZiLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/ShuZuZhongZhongFuDeShuZiLcof.java" />
+              <option name="questionId" value="100275" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/StringToUrlLcci.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/StringToUrlLcci.java" />
+              <option name="questionId" value="100160" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -48,6 +104,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/YongLiangGeZhanShiXianDuiLieLcof.java" />
               <option name="questionId" value="100273" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/[剑指 Offer 03]数组中重复的数字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/[剑指 Offer 03]数组中重复的数字.java" />
+              <option name="questionId" value="100275" />
             </LeetcodeEditor>
           </value>
         </entry>

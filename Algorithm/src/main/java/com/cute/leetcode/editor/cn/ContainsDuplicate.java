@@ -29,6 +29,11 @@ public class ContainsDuplicate {
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    /**
+     * TODO
+     * @param nums
+     * @return
+     */
     public boolean containsDuplicate(int[] nums) {
 
         return false;

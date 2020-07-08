@@ -15,7 +15,7 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * @ClassName VowelCount
- * @Description TODO
+ * @Description
  * @Author tommy
  * @Date 7/6/2020 5:53 PM
  **/

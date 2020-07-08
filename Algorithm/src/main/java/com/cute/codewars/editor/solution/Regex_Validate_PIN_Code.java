@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.runners.JUnit4;
 /**
  * @ClassName Regex_Validate_PIN_Code
- * @Description TODO
+ * @Description
  * @Author tommy
  * @Date 7/6/2020 7:32 PM
  **/

@@ -28,6 +28,12 @@ public class MaximumLengthOfRepeatedSubarray {
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    /**
+     * TODO
+     * @param A
+     * @param B
+     * @return
+     */
     public int findLength(int[] A, int[] B) {
 
         return 0;

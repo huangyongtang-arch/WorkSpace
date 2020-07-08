@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 /**
  * @ClassName Find_the_unique_number
- * @Description TODO
+ * @Description
  * @Author tommy
  * @Date 7/7/2020 5:28 PM
  **/
@@ -68,7 +68,7 @@ public class Find_the_unique_number {
 
 
 
-// TODO: Replace examples and use TDD development by writing your own tests
+// : Replace examples and use TDD development by writing your own tests
 
     public static class FindUniqTest {
         private double precision = 0.0000000000001;
