@@ -7,4 +7,13 @@
 *.iml
 out
 gen
+target/*
 target
+*/target
+Algorithm/src/main/resources/
+Algorithm/src/test/
+common/src/main/resources/
+common/src/test/
+core/src/test/
+javabasic/src/main/resources/
+javabasic/src/test/
