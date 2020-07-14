@@ -25,18 +25,59 @@
 // 👍 44 👎 0
 
 package com.cute.leetcode.editor.cn;
+
+import java.util.Arrays;
+
 public class CompressStringLcci {
     public static void main(String[] args) {
         Solution solution = new CompressStringLcci().new Solution();
+        System.out.println(solution.compressString("abbccd"));
+        System.out.println(solution.compressString("a"));
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public String compressString(String S) {
-        int count=0,i=0,j=0;
-        while(){
-
+        int count=1,i=0,j=1;
+        char[] ch=S.toCharArray();
+        StringBuilder sb = new StringBuilder();
+        // TODO1
+        if(S.length()==1){
+            sb.append(ch[i]);
         }
+        else{
+        while(j<ch.length && i<ch.length){
+            if(ch[i]==ch[j]){
+                count++;
+                j++;
+            }
+            // 只在不同时才存放字符串的副作用就是
+            // 当计数到后面一批或者只有一批相同的字符时没有存放进去，解决办法：注释TODO2
+            // 当字符串只有一个时，也没能存放进去 解决：注释TODO1
+            else if(ch[i]!=ch[j]){
+                sb.append(ch[i]);
+                sb.append(count);
+                i=j;
+                j++;
+                count=1;
+            }
+            // TODO2
+            // 当计数到后面一批或者只有一批相同的字符时存放字符串
+            // 当字符串只有一个时，没能存放进去 解决:注释TODO1
+            if(count>=1&&j==ch.length){
+                sb.append(ch[j-1]);
+                sb.append(count);
+            }
+        }
+        }
+        if(sb.length()>=S.length()){
+            return S;
+        }
+        String res = sb.toString();
+        return res;
     }
+
+
+
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
