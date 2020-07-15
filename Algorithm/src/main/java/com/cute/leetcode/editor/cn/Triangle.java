@@ -43,33 +43,28 @@ public class Triangle {
         list.add(l2);
         list.add(l3);
         list.add(l4);
-        solution.minimumTotal3(list);
+        solution.minimumTotal(list);
 //        System.out.println(list.size());
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int minimumTotal(List<List<Integer>> triangle) {
-            int[] memo = new int[triangle.size()];
-            Arrays.fill(memo, Integer.MAX_VALUE);
-            if (triangle.size() == 0) {
-                return 0;
-            }
-            if (triangle.size() == 1) {
-                return triangle.get(0).get(0);
-            }
-            for (int i = 0; i < triangle.size(); i++) {
-                for (int j = 0; j < triangle.get(i).size(); j++) {
-                    if (memo[i] == Integer.MAX_VALUE) {
-                        return memo[i];
-                    }
-                    int n = Math.min(triangle.get(i + 1).get(j), triangle.get(i + 1).get(j + 1));
-                    memo[i] = Math.min(triangle.get(i).get(j) + n, memo[i]);
+            int len = triangle.size();
+            int memo[][] = new int[len][len];
+            if (len==0) return 0;
+            memo[0][0] = triangle.get(0).get(0);
+            for(int i=1;i<len;i++){
+                memo[i][0] = memo[i-1][0]+triangle.get(i).get(0);
+                for(int j=1;j<i;j++){
+                    memo[i][j] = Math.min(memo[i-1][j],memo[i-1][j-1]) + triangle.get(i).get(j);
                 }
+                memo[i][i] = memo[i-1][i-1]+triangle.get(i).get(i);
             }
-            Arrays.stream(memo).forEach(System.out::println);
-            System.out.println();
-            int res = Arrays.stream(memo).sum();
+            int res = memo[len-1][0];
+            for (int i=1;i<len;i++){
+                res = Math.min(memo[len-1][i],res);
+            }
             System.out.println(res);
             return res;
         }
@@ -137,10 +132,10 @@ public class Triangle {
             int[] f = new int[n];
             f[0] = triangle.get(0).get(0);
             for (int i = 1; i < n; ++i) {
-                System.out.println("i:"+i);
+//                System.out.println("i:"+i);
                 f[i] = f[i - 1] + triangle.get(i).get(i);
                 for (int j = i - 1; j > 0; --j) {
-                    System.out.println("j:"+j);
+//                    System.out.println("j:"+j);
                     f[j] = Math.min(f[j - 1], f[j]) + triangle.get(i).get(j);
                 }
                 f[0] += triangle.get(i).get(0);
