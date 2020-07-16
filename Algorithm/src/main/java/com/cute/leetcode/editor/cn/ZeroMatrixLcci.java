@@ -37,6 +37,14 @@
 // 👍 10 👎 0
 
 package com.cute.leetcode.editor.cn;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+/**
+ * TODO
+ */
 public class ZeroMatrixLcci {
     public static void main(String[] args) {
         Solution solution = new ZeroMatrixLcci().new Solution();
@@ -44,8 +52,23 @@ public class ZeroMatrixLcci {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public void setZeroes(int[][] matrix) {
-        int  = matrix.length;
-        int
+        int rowLen = matrix.length;
+        int colLen = matrix[0].length;
+
+        List<Integer> row=new ArrayList<>();
+        List<Integer> col=new ArrayList<>();
+
+        for(int i=0;i<rowLen;i++){
+            for (int j=0;j<colLen;j++){
+                if(matrix[i][j] == 0){
+                    row.add(i);
+                    col.add(j);
+                }
+            }
+        }
+            
+        
+
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
