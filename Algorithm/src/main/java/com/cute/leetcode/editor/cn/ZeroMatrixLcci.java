@@ -48,13 +48,24 @@ import java.util.List;
 public class ZeroMatrixLcci {
     public static void main(String[] args) {
         Solution solution = new ZeroMatrixLcci().new Solution();
+        int matrix[][] = new int[][]{
+                {1,2,3,4},
+                {1,2,0,3},
+                {1,0,3,4},
+                {1,1,1,1}};
+        solution.setZeroes(matrix);
+        for (int i=0;i<matrix.length;i++){
+            for (int j=0;j<matrix[0].length;j++){
+                System.out.print(matrix[i][j]+",");
+            }
+            System.out.println();
+        }
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public void setZeroes(int[][] matrix) {
         int rowLen = matrix.length;
         int colLen = matrix[0].length;
-
         List<Integer> row=new ArrayList<>();
         List<Integer> col=new ArrayList<>();
 
@@ -66,9 +77,17 @@ class Solution {
                 }
             }
         }
-            
-        
 
+        for (int j:col){
+            for(int i=0;i<rowLen;i++){
+                matrix[i][j]=0;
+            }
+        }
+        for (int i:row){
+            for (int j=0;j<colLen;j++){
+                matrix[i][j]=0;
+            }
+        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
