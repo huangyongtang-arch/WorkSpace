@@ -35,11 +35,13 @@
 
 package com.cute.leetcode.editor.cn;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class UniqueBinarySearchTreesIi {
     public static void main(String[] args) {
         Solution solution = new UniqueBinarySearchTreesIi().new Solution();
+        System.out.println(solution.generateTree(3));
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 
@@ -78,9 +80,32 @@ public class UniqueBinarySearchTreesIi {
     }
 
     class Solution {
-        public List<UniqueBinarySearchTreesIi.TreeNode> generateTrees(int n) {
+        public List<TreeNode> generateTree(int n){
+            if (n==0){
+                return new LinkedList<TreeNode>();
+            }
+            return generateTree(1,n);
+        }
+         public List<TreeNode> generateTree(int start,int end) {
+            List<TreeNode> allTrees = new LinkedList<>();
+            if (start>end){allTrees.add(null);return allTrees;}
 
-            return null;
+            for (int i=start;i<=end;i++){
+                List<TreeNode> leftTree = generateTree(start,i-1);
+                List<TreeNode> rightTree = generateTree(i+1,end);
+
+                for (TreeNode left : leftTree){
+                    for (TreeNode right:rightTree){
+                        TreeNode currTree =  new TreeNode(i);
+                        currTree.left = left;
+                        currTree.right = right;
+                        allTrees.add(currTree);
+                    }
+                }
+
+            }
+
+            return allTrees;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
