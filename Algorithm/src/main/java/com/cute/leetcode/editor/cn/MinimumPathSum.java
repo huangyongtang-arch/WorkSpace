@@ -17,17 +17,43 @@
 // 👍 512 👎 0
 
 package com.cute.leetcode.editor.cn;
+
+import java.util.Arrays;
+
 public class MinimumPathSum {
     public static void main(String[] args) {
         Solution solution = new MinimumPathSum().new Solution();
+        int res = solution.minPathSum(new int[][]{
+                {1, 3, 1}
+                , {1, 5, 1}
+                , {4, 2, 1}
+        });
+        System.out.println(res);
     }
-    //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int minPathSum(int[][] grid) {
 
-        return 0;
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int minPathSum(int[][] grid) {
+            int colL = grid.length - 1;
+            int rowL = grid[0].length - 1;
+            int memo[][] = new int[colL + 1][rowL + 1];
+
+            memo[colL][rowL] = grid[colL][rowL];
+            for (int i = colL - 1; i >= 0; i--) {
+                memo[i][rowL] = memo[i + 1][rowL] + grid[i][rowL];
+            }
+            for (int j = rowL - 1; j >= 0; j--) {
+                memo[colL][j] = memo[colL][j + 1] + grid[colL][j];
+            }
+            for (int i = colL - 1; i >= 0; i--) {
+                for (int j = rowL - 1; j >= 0; j--) {
+                    memo[i][j] = grid[i][j] + Math.min(memo[i][j + 1], memo[i + 1][j]);
+                }
+            }
+            return memo[0][0];
+
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
