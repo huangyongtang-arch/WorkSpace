@@ -3,11 +3,27 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/BulbSwitcherIv.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/BulbSwitcherIv.java" />
+              <option name="questionId" value="1652" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/DivisorGame.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/DivisorGame.java" />
               <option name="questionId" value="1086" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/IntegerBreak.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/IntegerBreak.java" />
+              <option name="questionId" value="343" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -72,6 +88,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/XuanZhuanShuZuDeZuiXiaoShuZiLcof.java" />
               <option name="questionId" value="100278" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/XunBao.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/XunBao.java" />
+              <option name="questionId" value="1000093" />
             </LeetcodeEditor>
           </value>
         </entry>
