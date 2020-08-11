@@ -19,6 +19,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/FlattenBinaryTreeToLinkedList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/FlattenBinaryTreeToLinkedList.java" />
+              <option name="questionId" value="114" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/IntegerBreak.java">
           <value>
             <LeetcodeEditor>
@@ -51,11 +59,35 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/PartitionEqualSubsetSum .java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/PartitionEqualSubsetSum .java" />
+              <option name="questionId" value="416" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/RecoverBinarySearchTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/RecoverBinarySearchTree.java" />
+              <option name="questionId" value="99" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/RemoveDuplicateNodeLcci.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/RemoveDuplicateNodeLcci.java" />
               <option name="questionId" value="100163" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/RestoreIpAddresses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/RestoreIpAddresses.java" />
+              <option name="questionId" value="93" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -104,6 +136,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/leetcode/editor/cn/TwoSumIiInputArrayIsSorted .java" />
               <option name="questionId" value="167" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/tmpfilepath/leetcode/editor/cn/AddStrings .java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/tmpfilepath/leetcode/editor/cn/AddStrings .java" />
+              <option name="questionId" value="415" />
             </LeetcodeEditor>
           </value>
         </entry>
