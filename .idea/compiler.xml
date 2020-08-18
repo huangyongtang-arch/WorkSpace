@@ -7,12 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javabasic" />
         <module name="common" />
         <module name="Algorithm" />
         <module name="javafx" />
         <module name="core" />
-        <module name="web" />
+        <module name="javabasic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

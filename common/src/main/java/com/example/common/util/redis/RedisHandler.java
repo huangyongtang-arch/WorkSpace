@@ -2,7 +2,7 @@ package com.example.common.util.redis;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.rratchet.scala.util.ObjectTranscoder;
+//import com.rratchet.scala.util.ObjectTranscoder;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
@@ -599,18 +599,18 @@ public class RedisHandler {
 	 * @param key
 	 * @throws Exception
 	 */
-	public void setObjectAndTimeOut(String key,Object object,int timeOut) throws Exception{
-		Jedis jedis = null;
-		try {
-			jedis = jedisPool.getResource();
-			jedis.set(key.getBytes(), ObjectTranscoder.serialize(object));
-			jedis.expire(key.getBytes(), timeOut);
-		} catch (Exception e) {
-			throw new Exception();
-		}finally{
-			this.closeConnect(jedis);
-		}
-	}
+//	public void setObjectAndTimeOut(String key,Object object,int timeOut) throws Exception{
+//		Jedis jedis = null;
+//		try {
+//			jedis = jedisPool.getResource();
+//			jedis.set(key.getBytes(), ObjectTranscoder.serialize(object));
+//			jedis.expire(key.getBytes(), timeOut);
+//		} catch (Exception e) {
+//			throw new Exception();
+//		}finally{
+//			this.closeConnect(jedis);
+//		}
+//	}
 
 	/**
 	 * 获取key过期时间
