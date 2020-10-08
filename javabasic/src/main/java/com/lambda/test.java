@@ -1,12 +1,12 @@
 package com.lambda;
 
-import org.junit.jupiter.api.Test;
+
 
 import java.util.Arrays;
 import java.util.List;
 
 public class test {
-    @Test
+
     public void test7() {
         List<Employee> employees = Arrays.asList(
                 new Employee("张三", 18, (double) 3333),

@@ -1,7 +1,6 @@
 package com;
 
-import org.junit.jupiter.api.DynamicTest;
-import org.junit.jupiter.api.Test;
+
 
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
@@ -10,7 +9,7 @@ import java.util.Random;
 import java.util.stream.Collectors;
 
 public class Stream {
-    @Test
+
     public void testStringListStream() {
 
         List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd", "", "jkl");
@@ -19,7 +18,7 @@ public class Stream {
             System.out.print(s + ",");
         }
     }
-@Test
+
     public void testRandomStream() {
         Random random = new Random();
         long[] list = random.ints().filter(x -> x > 0).limit(5).mapToLong(Long::valueOf).toArray();
@@ -31,7 +30,7 @@ public class Stream {
         Random random1 = new Random();
         random1.ints().limit(10).sorted().forEach(System.out::println);
     }
-@Test
+
     public void testIntegerListStream() {
         List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
 // 获取对应的平方数
@@ -41,7 +40,7 @@ public class Stream {
         }
     }
 
-    @Test
+
     public void testParallelStream(){
         List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
 // 获取空字符串的数量
@@ -49,7 +48,7 @@ public class Stream {
         System.out.println(count);
     }
 
-    @Test
+
     public void testCollectorStream(){
         List<String>strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
         List<String> filtered = strings.stream().filter(string -> !string.isEmpty()).collect(Collectors.toList());
@@ -59,7 +58,7 @@ public class Stream {
         System.out.println("合并字符串: " + mergedString);
     }
 
-    @Test
+
     public void testSummaryStream(){
         List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
 
