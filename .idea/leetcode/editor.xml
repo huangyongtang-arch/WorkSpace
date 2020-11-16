@@ -3,6 +3,14 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/../Linux/Git/workspace/leetcode/src/main/java/com/cute/leetcode/editor/cn/QueueReconstructionByHeight.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../Linux/Git/workspace/leetcode/src/main/java/com/cute/leetcode/editor/cn/QueueReconstructionByHeight.java" />
+              <option name="questionId" value="406" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/BulbSwitcherIv.java">
           <value>
             <LeetcodeEditor>
