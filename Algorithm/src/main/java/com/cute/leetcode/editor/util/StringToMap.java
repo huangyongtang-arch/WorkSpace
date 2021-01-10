@@ -1,12 +1,11 @@
 package com.cute.leetcode.editor.util;
 
-import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class StringToMap {
-    @Test
+
     public void test(){
         String str = new String("String=1,Int=2,Char=3");
         HashMap<String, String> map=stringToMap(str);

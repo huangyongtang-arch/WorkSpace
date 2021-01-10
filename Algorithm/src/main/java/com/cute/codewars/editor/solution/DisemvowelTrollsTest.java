@@ -1,11 +1,8 @@
 package com.cute.codewars.editor.solution;
 
-import com.cute.leetcode.editor.util.Examination;
-import org.junit.jupiter.api.Test;
+import java.util.Random;
 
 import static org.junit.Assert.assertEquals;
-
-import java.util.Random;
 
 /**
  * @ClassName Disemvowel_Trolls
@@ -24,13 +21,10 @@ public class DisemvowelTrollsTest{
     public static String disemvowelTrolls(String Z){
         return Z.replaceAll("(?i)[aeiou]","");
     }
-    @Test
     public void testResult(){
         System.out.println(disemvowelTrolls("AEIOUZ"));
 
     }
-
-    @Test
     public void FixedTests() {
         System.out.print("This website is for losers LOL!"+" : : ");
         System.out.println(DisemvowelTrollsTest.disemvowelTrolls("This website is for losers LOL!"));
@@ -52,7 +46,6 @@ public class DisemvowelTrollsTest{
         return sb.toString();
     }
 
-    @Test
     public void RandomTests() {
 
         for(int i = 0; i < 100; i++) {

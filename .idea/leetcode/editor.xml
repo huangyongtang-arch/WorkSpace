@@ -19,6 +19,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/CalculateMoneyInLeetcodeBank.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/CalculateMoneyInLeetcodeBank.java" />
+              <option name="questionId" value="1817" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/DivisorGame.java">
           <value>
             <LeetcodeEditor>
@@ -67,6 +75,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/MaximumScoreFromRemovingSubstrings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/MaximumScoreFromRemovingSubstrings.java" />
+              <option name="questionId" value="1818" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/MinimumPathSum.java">
           <value>
             <LeetcodeEditor>
@@ -80,6 +96,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/PartitionEqualSubsetSum .java" />
               <option name="questionId" value="416" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/PositionsOfLargeGroups.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/PositionsOfLargeGroups.java" />
+              <option name="questionId" value="857" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -120,6 +144,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/SplitArrayLargestSum.java" />
               <option name="questionId" value="410" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/SummaryRanges.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Algorithm/src/main/java/com/cute/leetcode/editor/cn/SummaryRanges.java" />
+              <option name="questionId" value="228" />
             </LeetcodeEditor>
           </value>
         </entry>
