@@ -32,6 +32,7 @@ package com.cute.leetcode.editor.cn;
 //合并二叉树
 
 
+import com.cute.leetcode.editor.util.TreeNode;
 
 /**
  * @date 2021-02-13 22:57:59
@@ -62,11 +63,7 @@ public class P617_MergeTwoBinaryTrees{
  */
 class Solution {
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
-		if (root1 == null && root2 == null){return null;}
-		if (root1 == null){return root2;}
-		if (root2 == null){return root1;}
 
-		TreeNode mergedTree = root1
 
 
 		return root1;
