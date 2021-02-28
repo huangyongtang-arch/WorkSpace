@@ -41,22 +41,44 @@ package com.cute.leetcode.editor.cn;
 //翻转图像
 
 /**
- * @date 2021-02-24 13:10:09
  * @author tommywing
+ * @date 2021-02-24 13:10:09
  * @description
  */
-public class P832_FlippingAnImage{
-	 public static void main(String[] args) {
+public class P832_FlippingAnImage {
+    public static void main(String[] args) {
         //test code
-	 	 Solution solution = new P832_FlippingAnImage().new Solution();
-	 }
-    //question code
-	//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int[][] flipAndInvertImage(int[][] A) {
+        Solution solution = new P832_FlippingAnImage().new Solution();
 
+        int[][] A = solution.flipAndInvertImage(new int[][]{{1, 1, 0}, {0, 0, 0}, {1, 0, 1}, {0, 1, 0}, {1, 1, 1}});
+        System.out.println(A.length);
+        int row = A.length, col = A[0].length;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                System.out.print(A[i][j]);
+            }
+            System.out.println();
+        }
     }
-}
+
+    //question code
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int[][] flipAndInvertImage(int[][] A) {
+            for (int i = 0; i < A.length; i++) {
+                int l = 0, r = A[0].length - 1;
+                while (l <= r) {
+                    if (A[i][l] == A[i][r]) {
+                        A[i][l] = A[i][r] = A[i][r] ^ 1;
+                    }
+                    l++;
+                    r--;
+                }
+            }
+
+            return A;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
